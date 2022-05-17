@@ -72,7 +72,7 @@ function App() {
           <tr><Cell num={6}/><Cell num={7}/><Cell num={8}/></tr>
         </tbody>
       </table>
-      {winner && (<><p>{winner}</p><button onClick={restart}>Play Again!</button></>)}
+      {winner && (<><p>Winner is : {winner}</p><button onClick={restart}>Play Again!</button></>)}
     </div>
   );
 }
